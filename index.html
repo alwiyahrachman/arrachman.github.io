@@ -1,23 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyperlink</title>
-</head>
-<body>
-    <pre>
-        <hr color="blue" size=3 width=50% align="left"><font size= 4 color="red"><a
-        href="home.html">Home</a> | <a href="profil.html">Profil</a> | <a href="about.html">About</a> | <a href="galery.html">Gallery</a> | <a href="kontak.html">Kontak</a></font>
-        <hr color="blue" size=3 width=50% align="left">
-        <font size=3>Assalammualaikum.Wr.Wb.
-        Apa kabar semua, salam kenal ini adalah web perdanaku. Web ini berisi informasi
-        tentang kegemaranku.
-        Semoga web ini dapat menginspirasi anda pada waktu liburan. <a href="http://www.google.com">google</a>
-        Silakan hubungi saya jika ada yang ingin didiskusikan <a
-        href="mailto:alwiyahrachman@orilame.com">email</a>
-        <a href=”mailto:alamat email”>…..</a>
-        </font>
-        </pre>
-</body>
+<html>
+    <head><title>Latihan pembuatan </title></head>
+    <body>
+        <!-Nim,Nama,Jenis kelamin,Agaama, Status,Jurusan,Komentar.->
+        <form>
+            <h1>Form pendaftaran</h1><hr>
+            <pre>
+               
+                Nama           :<input type="text"size="25" name="Nama">
+                Tanggal Lahir  :<input type="text" size="11" name="Tanggal Lahir">/<input type="text" size="11" name="Tanggal Lahir">/<input type="text" size="11" name="Tanggal Lahir">
+                Alamat         :<textarea type="text" rows="3"cols="30" name="Alamat"></textarea>
+                Kota           :<input type="text" size="11" name="Kota">
+                Pekerjaan      :<select name=Pekerjaan>
+                    <option value="Staff">Staff</option>
+                    <option value="IRT">IRT</option>
+                    <option value="ART">ART</option>
+                    <option value="Dosen">Dosen</option>
+                    <option value="pengangguran">pengangguran</option>
+                    </select>
+                Jenis kelamin  :<input type="radio"name="jkel"value="pria">pria<input
+                type="radio"name="jkel"value="wanita">wanita
+                    
+                Hoby           :<select name="Hoby"size="1">
+                        <option value="Memasak">Memasak</option>
+
+                        <option value="Memancing">Memancing</option>
+
+                        <option value="Tidur">Tidur</option>
+
+                        <option value="jalan jalan">jalan jalan</option>
+
+                    </select>
+                  
+                Kesan dan pesan:<textarea name="kesan dan pesan"rows="3"cols="30"></textarea>
+            </pre>
+            <br>
+            <input type="submit" value="kirim">
+            <input type="reset" value="ulang">
+        </form>
+    </body>
 </html>
