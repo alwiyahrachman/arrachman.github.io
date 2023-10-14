@@ -1,0 +1,40 @@
+<html>
+    <head><title>Latihan pembuatan </title></head>
+    <body>
+        <!-Nim,Nama,Jenis kelamin,Agaama, Status,Jurusan,Komentar.->
+        <form>
+            <h1>Form pendaftaran</h1><hr>
+            <pre>
+                Nim:<input type="text" size="11" name="nim">
+                Nama:<input type="text"size="25" name="Nama">
+                Jenis kelamin:<input type="radio"name="jkel"value="pria">pria<input
+                type="radio"name="jkel"value="wanita">wanita
+                Agama:<select name=agama>
+                    <option value="islam">islam</option>
+                    <option value="khatolik">khatolik</option>
+                    <option value="kristen">kristen</option>
+                    <option value="hindu">hindu</option>
+                    <option value="budha">budha</option>
+                    </select>
+                    Status:<input type="radio" name="status" value="kawin">kawin<input
+                    type="radio"name="status"value="belumkawin">Belum kawin
+                    Jurusan:<select name="jurusan"size="1">
+                        <option value="Teknik Informatika">Teknik informatika</option>
+                        <option value="Manajemen Informatika">Manajemen informatika</option>
+                        <option value="Teknik Komputer">Teknik Komputer</option>
+                        <option value="Teknik Industri">teknik Industri</option>
+
+                    </select>
+                    Hoby:<input type="chechbox"name="hoby" value="futsal">futsal<input
+                    type="checkbox"name="hoby"value="Renang">Renang <input
+                    type="checkbox"name="hoby"value="Traveling">Traveling
+
+                    Keterangan:
+                    <textarea name="ket"rows="3"cols="30"></textarea>
+            </pre>
+            <br>
+            <input type="submit" value="kirim">
+            <input type="reset" value="ulang">
+        </form>
+    </body>
+</html>
